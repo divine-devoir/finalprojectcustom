@@ -1,3 +1,10 @@
 h1{
-font-family: 'Inconsolata' ;
+font-size: 100px;
+font-family: 'arizonia' ;
+opacity: 0.5;
+color:#FFCCCB;
+}
+body{
+  background-color: #85754E;
+<--!this should be border-->
 }
