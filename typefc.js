@@ -1,5 +1,5 @@
 setTimeout(function(){
-        $(".header").typed({
+        $(".intro-section").typed({
             strings: ["Flowering Capabilities"],
             typeSpeed: 110, // typing speed
             backDelay: 750, // pause before backspacing
