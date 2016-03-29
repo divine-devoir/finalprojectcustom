@@ -37,27 +37,39 @@ src:
 
 }
 
- h1{
-font-family: "fzm Old Typewriter";
-font-size: 100px;
+.header{
+  font-family: "fzm Old Typewriter";
+    color:black;
+    font-size: 60px;
 
-opacity: 0.5;
-color:black;}
+}
+
+.imageline{
+  margin-left: 200px;
+}
 
 
-
-
-p {
+.script {
 font-family: "fzm Old Typewriter";
   color:black;
-  font-size: 50px;
+  font-size: 30px;
+}
+.create{
+font-family: "fzm Old Typewriter";
+  color:black;
+  font-size: 40px;
+}
+.momo{
+font-family: "fzm Old Typewriter";
+  color:black;
+  font-size: 30px;
 }
 
 .intro-section {
     height: 100%;
     padding-top: 150px;
-text-align: center;
 
+background-image: url("white_texture.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -66,22 +78,28 @@ background-size: cover;
 .about-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
-    background-image: url("poly.jpg");
+    background-image: url("white_texture.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.img-rounded{
+  border-color: #D1B37F !important;
 }
 
 .services-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background-image: url("white_texture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background-image: url("white_texture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
