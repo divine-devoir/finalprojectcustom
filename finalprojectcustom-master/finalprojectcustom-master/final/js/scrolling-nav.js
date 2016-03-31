@@ -1,4 +1,5 @@
-//jQuery to collapse the navbar on scroll
+//tooltip for buttons on tabs in work section
+//still need to figure out how to change tooltip button color ... ugly red :(
 $( document ).ready(function() {
     $("[rel='tooltip']").tooltip();
 
@@ -11,6 +12,7 @@ $( document ).ready(function() {
         }
     );
 });
+//jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
